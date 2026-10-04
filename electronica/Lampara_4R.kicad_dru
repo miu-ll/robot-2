@@ -1,0 +1,3 @@
+(version 1)
+(rule "rayos_termicos"
+   (constraint min_resolved_spokes 1))

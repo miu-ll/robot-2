@@ -1,0 +1,33 @@
+﻿Referencias;Cantidad;Valor / descripcion;Huella / nota
+A1;1;Raspberry Pi Pico;RaspberryPi_Pico_Common_THT
+C1;1;470 uF 16 V;CP_Radial_D8.0mm_P3.50mm
+C2;1;100 nF;C_Disc_D3.0mm_W1.6mm_P2.50mm
+D1;1;1N5819;D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp
+F1;1;10 A (ATM);Fuseholder_Blade_Mini_Keystone_3568
+J1;1;Motor q1 (PH2.0);JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+J2;1;Motor q2 (PH2.0);JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+J3;1;Motor q3 (PH2.0);JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+J4;1;Motor q4 (PH2.0);JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+J5;1;12 V entrada;TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal
+J6;1;12 V a XL4016;TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal
+J7;1;12 V a LM2596;TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal
+J8;1;5 V desde LM2596;TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal
+J9;1;Anillo LED (PH2.0);JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical
+J10;1;Ventilador (PH2.0);JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical
+J11;1;Sensores Hall (PH2.0);JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical
+Q1;1;2N7000;TO-92_Inline_Wide
+R1;1;330;R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+R2;1;100;R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+R3;1;10 k;R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
+U1, U2, U3, U4;4;Adafruit DRV8871;Adafruit_DRV8871_Portadora
+U5;1;74AHCT125;DIP-14_W7.62mm
+(U1-U4);4;Tira hembra 1x4, 2.54 mm, 8.5 mm de alto;zocalo del cabezal GND/VM/IN1/IN2 de cada DRV8871
+(U1-U4);16;Contacto hembra individual, 8.5 mm (tira hembra cortada);zocalo de los pines de bornera OUT2/OUT1/VM/GND (paso 3.5 mm)
+(U1-U4);16;Pin macho 2.54 mm;soldado en los agujeros de bornera del modulo, en lugar de las borneras
+(A1);2;Tira de pines 1x20, 2.54 mm + separadores de 2.5 mm;Pico soldada baja: techo del motor de q1
+(J1-J4, J11);5;Carcasa JST PHR-6 + 6 terminales SPH-002T;cables de motores y sensores Hall
+(J9);1;Carcasa JST PHR-3 + 3 terminales;cable del anillo LED
+(J10);1;Carcasa JST PHR-2 + 2 terminales;cable del ventilador
+(F1);1;Fusible de cuchilla mini (ATM) 10 A;en el portafusible Keystone 3568
+(U5);1;Zocalo DIP-14;opcional
+(H1-H5);5;Tornillo M3 x 6 DIN 912 + inserto M3 (termofijado);en las torres impresas de la bandeja de la base (z 7 -> 15)

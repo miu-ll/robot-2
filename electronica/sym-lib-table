@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Lampara")(type "KiCad")(uri "${KIPRJMOD}/Lampara.kicad_sym")(options "")(descr "Modulos de la lampara 4R"))
+)

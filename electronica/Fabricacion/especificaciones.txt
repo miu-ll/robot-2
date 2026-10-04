@@ -1,0 +1,6 @@
+Placa portadora de la lampara robotica 4R - Rev B
+Dimensiones: 180.7 x 91.0 mm (contorno irregular, ver Edge.Cuts)
+Capas: 2 (FR4, 1.6 mm)   Cobre: 1 oz (2 oz recomendado si los motores pueden bloquearse a la vez)
+Pista minima: 0.4 mm   Separacion minima: 0.35 mm   Via: 1.0 / 0.5 mm
+Taladro minimo: 0.5 mm   Mascara: verde   Serigrafia: blanca   Acabado: HASL
+Todos los componentes son de agujero pasante (montaje manual).
